@@ -1,0 +1,21 @@
+{
+  "name": "claude-pro-rival-ai",
+  "version": "1.0.0",
+  "description": "Complete AI system rivaling Claude Pro",
+  "private": true,
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend",
+    "packages/ml",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w",
+    "build": "npm run build -w",
+    "start": "npm start -w packages/backend",
+    "test": "npm run test -w"
+  },
+  "keywords": ["ai", "llm", "chatbot", "claude"],
+  "author": "",
+  "license": "MIT"
+}
